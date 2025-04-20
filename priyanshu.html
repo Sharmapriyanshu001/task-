@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            background-color: #fefae0;
+        }
+        .nav{
+            width: 100%;
+            height: 50px;
+            /* border: 1px solid black; */
+            display: flex;
+        }
+        #icon{
+            position: relative;
+            top: 5px;
+            left: 4%;
+        }
+        #options{
+            position: relative;
+            left: 42%;
+            top: 4px;
+            height: 30px;
+            width: 40%;
+          
+            display: flex;
+            justify-content: space-around;
+        }
+        #button{
+            position: relative;
+            top: 32px;
+            left: 40%;
+            background-color: #ff006e;
+            height: 20px;
+            width: 90px;
+            color: white;
+        }
+        .poster{
+            height: 300px;
+            width: 100%;
+            /* border: 1px solid black; */
+            position: relative;
+            top: 5px; 
+            background-color: white;
+        }
+        #info{
+            position: relative;
+            top: 40px;
+            left: 50px;
+        }
+        #btn{
+            background-color:#ff006e ;
+            color: white;
+            height: 30px;
+        }
+        #img{
+            position: absolute;
+            top: 30px;
+            left: 70%;
+        }
+        .midd{
+            height: 250px;
+            width: 100%;
+            /* border: 1px solid black; */
+            position: relative;
+            top: 5px;
+            background-color: rgb(225, 211, 211);
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #pic{
+            height: 220px;
+            width: 400px;
+            /* border: 1px solid black; */
+            position: relative;
+            top: 15px;
+            left: 110px;
+            background-image: url("abc.PNG");
+            background-size: cover;
+            border-radius: 5px;
+        }
+        #text{
+            height: 220px;
+            width: 400px;
+            /* border: 1px solid black; */
+            position: relative;
+            top: 15px;
+            left: 0px;
+        }
+        .dba{
+            height: 250px;
+            width: 100%;
+            /* border: 1px solid black; */
+            position: relative;
+            top: 5px;
+            background-color: white;
+        }
+        .p{
+            text-align: center;
+        }
+        .mdba{
+            height: 200px;
+            width: 100%;
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: space-around;
+        }
+        .a{
+            height: 150px;
+            width: 150px;
+            /* border: 1px solid black; */
+            background-color: whitesmoke;
+            border-radius: 5px;
+        }.four{
+            height: 250px;
+            width: 100%;
+            /* border: 1px solid black; */
+            position: relative;
+            top: 5px;
+            background-color: rgb(225, 211, 211);
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #fourpic{
+            height: 220px;
+            width: 400px;
+            /* border: 1px solid black; */
+            position: relative;
+            top: 15px;
+            left: 110px;
+            background-image: url("four.PNG");
+            background-size: cover;
+            border-radius: 5px;
+        }
+        .five{
+            height: 400px;
+            width: 100%;
+            /* border: 1px solid black; */
+            position: relative;
+            top: 5px;
+            background-color: white;
+           
+        }
+       .five1{
+        display: flex;
+        justify-content: space-around;
+        /* border: 1px solid black; */
+       }
+       .five2{
+        display: flex;
+        justify-content: space-around;
+        /* border: 1px solid black; */
+       }
+       .six{
+        height: 250px;
+            width: 100%;
+            /* border: 1px solid black; */
+            position: relative;
+            top: 9px;
+            background-color: whitesmoke;
+
+       }
+       .six1{
+        display: flex;
+        justify-content: space-around;
+       }
+       .c{
+        height: 120px;
+        width: 120px;
+        border: 1px solid black;
+        background-image: url("office.jpeg");
+        background-size: cover;
+        border-radius: 5px;
+       }
+       .six2{
+        display: flex;
+        justify-content: space-around;
+       
+        position: relative;
+        left: 63px;
+       }
+       .seven{height: 280px;
+            width: 100%;
+            /* border: 1px solid black; */
+            background-color: white;
+
+       }
+       .seven1{
+        height: 170px;
+        width: 500px;
+        /* border: 1px solid black; */
+        position: relative;
+        left: 33%;
+        border-radius: 5px;
+        background-color: whitesmoke;
+       }
+       .seven2{
+        height: 50px;
+        width: 50px;
+        border: 1px solid black;
+        border-radius: 50%;
+        position: relative;
+        top: 9px;
+        left: 9px;
+        background-image: url("office.jpeg");
+        background-size: cover;
+
+       }
+       .eight{
+        height: 450px;
+            width: 100%;
+            border: 1px solid black;
+            position: relative;
+            top: 5px;
+            background-color: rgb(22, 25, 67);
+       }
+       .form{
+        height: 300px;
+        width: 600px;
+       
+        border-radius: 5px;
+        background-color: white;
+        position: relative;
+        left: 28%;
+       }
+       .f{
+        width: 550px;
+      
+        border-width: 0px;
+        background-color: rgb(219, 210, 210);
+        position: relative;
+        left: 15px;
+       }
+       #btn3{
+        position: relative;
+        left: 15px;
+        height: 32px;
+       }
+       .nine{
+        height: 300px;
+        width: 100%;
+        /* border: 1px solid black; */
+        background-color: rgb(227, 219, 219);
+       }
+       .nine1{
+        display: flex;
+        justify-content: space-around;
+       }
+       .nine2{
+        display: flex;
+        justify-content: space-around;
+       
+        position: relative;
+        left: 63px;
+       }
+       .d{
+        height: 150px;
+        width: 190px;
+        background-image: url("abc.PNG");
+        background-size: cover;
+       }
+       .ten{
+        height: 300px;
+        width: 100%;
+        background-color: white;
+       }
+       .ten1{
+        height: 250px;
+        width: 41%;
+        border: 1px solid black;
+        position: relative;
+        top: 40px;
+        left: 400px;
+        border-radius: 5px;
+        background-image: url("office.jpeg");
+        background-size: cover;
+        
+
+    }
+    #some{
+        position: relative;
+        top: 12px;
+    }
+    #btn4{  position: relative;
+        left: 250px;
+        
+        background-color: red;
+        color: white;
+        height: 30px;
+        border-radius: 5px;
+
+    }
+    </style>
+</head>
+<body>
+   <div class="main">
+    <nav>
+        <div class="nav">
+            <div id="icon">Logoipsum</div>
+            <div id="options">
+                <a>About</a>
+                <a>Our services</a>
+                <a>Portfolio</a>
+                <a>Blog</a>
+                <a>Contact</a>
+            </div>
+            <div id="button">Get In Touch</div>
+        </div>
+    </nav>
+    <div class="poster">
+        <div id="info">
+            <h3 style="color: rgb(180, 16, 16);">\We Are Here\</h3>
+            <h2>Better Insights For <br>Business Growth</h2>
+            <br>
+            <button id="btn">view more</button>
+        </div>
+        <div id="img"><img src="xyz.PNG" height="260px" width="250px"></div>
+    </div>
+    <div class="midd">
+        <div id="pic"></div>
+        <div id="text"><h3 style="color: red;">\About us\</h3>
+        
+        <h2>One of the fastest way to<br>Business growth</h2>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quod at est illo ipsa. Cum consequatur eligendi recusandae praesentium esse, facere quibusdam velit perferendis impedit ducimus animi repellat cupiditate exercitationem?</p>
+    </div>
+    </div>
+    <div class="dba"><br>
+        <h3 style="color: red;" class="p">\planning\</h3>
+        <h2 class="p">Our Process</h2>
+        <div class="mdba">
+            <div class="a">
+                <h3 style="text-align: center;">Research</h3>
+                <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="a">
+                <h3 style="text-align: center;">Design</h3>
+                <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="a">
+                <h3 style="text-align: center;">Develope</h3>
+                <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="a">
+                <h3 style="text-align: center;">Test</h3>
+                <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+    <div class="four"><div id="fourpic"></div>
+    <div id="text"><h3 style="color: red;">\What we do\</h3>
+    
+    <h2>We develope product that<br>people love to use.</h2>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quod at est illo ipsa. Cum consequatur eligendi recusandae praesentium esse, facere quibusdam velit perferendis impedit ducimus animi repellat cupiditate exercitationem?</p>
+       <br> <button style="background-color: red; color: white;">view more</button>
+</div></div>
+<div class="five"><br>
+    <h3 style="color: red;" class="p">\Services\</h3>
+    <h2 class="p">Our expertice</h2><br>
+    <div class="five1">
+        <div class="a">
+            <h3 style="text-align: center;">Research</h3>
+            <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="a">
+            <h3 style="text-align: center;">Design</h3>
+            <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="a">
+            <h3 style="text-align: center;">Develope</h3>
+            <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        
+    </div>
+    <br>
+    <div class="five2">
+        <div class="a">
+            <h3 style="text-align: center;">Research</h3>
+            <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="a">
+            <h3 style="text-align: center;">Design</h3>
+            <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="a">
+            <h3 style="text-align: center;">Develope</h3>
+            <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        </div></div>
+        
+        <div class="six">
+            <br>
+            <h3 style="color: red; text-align: center;">\team\</h3>
+            <h2 style="text-align: center;">Our leaders</h2>
+            <br>
+            <div class="six1">
+                <div class="c"></div>
+             
+                <div class="c"></div>
+                <div class="c"></div>
+                <div class="c"></div>
+            </div>
+            <div class="six2">
+                <p style="color: red;">Ram</p>
+                <br>
+                <p style="color: red;">Shyam</p>
+                <br>
+                <p style="color: red;">Shubhas</p>
+                <br>
+                <p style="color: red;">Satya</p>
+                <br>
+            </div>
+            </div>
+            <div class="seven">
+                <br>
+                <h3 style="color: red; text-align: center;">\From Our Customers\</h3>
+            <h2 style="text-align: center;">Testmonials</h2>
+            <br>
+            <div class="seven1">
+                <div class="seven2"></div>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex atque sequi tempore ea molestiae quod veritatis facere hic, repellat dicta perferendis. Eius qui ullam culpa commodi? Nesciunt veniam maxime reprehenderit.</p>
+           <br> <p style="color: red;">SHUBHAS</p>
+            </div>
+            </div>
+            
+            <div class="eight">
+                <br>
+                <h3 style="color: red; text-align: center;">\get in touch\</h3>
+                <h2 style="text-align: center; color: white;">Hey! Let's Talk</h2>
+                <br>
+                <div class="form">
+                    <form>
+                        <br>
+                        <input type="text" placeholder="Name" class="f">
+                        <br><br>
+                        <input type="email" placeholder="Email" class="f">
+                        <br><br>
+                        <input type="tel" placeholder="Phone" class="f">
+                        <br><br>
+                        <textarea placeholder="Your Message" class="f"></textarea>
+                        <br><br>
+                        <button style="background-color: #ff006e; color: white;" id="btn3">Send Now</button>
+                    </form>
+                </div>
+            </div>
+            <div class="nine">
+                <br>
+                <h3 style="color: red; text-align: center;">\Our Blog\</h3>
+                <h2 style="text-align: center;">Latest Post</h2>
+                <br>
+                <div class="nine1">
+                    
+                        <div class="d"></div>
+                     
+                        <div class="d"></div>
+                        <div class="d"></div>
+                        
+                </div>
+                    <div class="nine2">
+                        
+                        <p style="color: red;">The most popular business </p>
+                        <br>
+                        <p style="color: red;">The most popular business </p>
+                        <br>
+                        <p style="color: red;">The most popular business </p>
+                        <br>
+                       
+                        <br>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="ten">
+                <div class="ten1">
+                    <br>
+                    <h2 style="text-align: center; color: white; opacity: 1;" id="some">"Some of the History of our Company is that<br>
+                        we are Catching up through Video"</h2>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <button id="btn4">get in touch</button>
+
+                </div>
+            </div>
+   </div> 
+</body>
+</html>
